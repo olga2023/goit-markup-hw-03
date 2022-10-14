@@ -1,0 +1,293 @@
+:root {
+    --color-primary: #757575;
+    --color-brand: #2196f3;
+    --color-accent: #212121;
+    --color-active: #188CE8;
+    --color-secondary-section: #f5f5f5; 
+    --color-section: #2f303a;
+    --color-container: #eeeeee;
+    --color-background: #ffffff;
+}
+
+body {
+    color: var(--color-primary);
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: var(--color-background)
+}
+
+/* logo */
+
+.logo-text {
+    color: var(--color-brand);
+    line-height: 1.2;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.logo-second {
+    color: #000000;
+    line-height: 1.2;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.logo-second-footer {
+    color: var(--color-background);
+    line-height: 1.2;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+ /*secton link*/
+
+.link-logo {
+    text-decoration: none;
+    line-height: 1.2;
+    font-family: Raleway;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+}
+
+.link-nav {
+    color: var(--color-accent);
+    text-decoration: none;
+    line-height: 1.14;
+    font-weight: 500;
+}
+
+.link-nav:hover {
+    color: var(--color-brand);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.link-nav:active {
+    color: var(--color-active);
+    font-weight: 500;
+}
+
+.link-nav:focus {
+    color: var(--color-active);
+    font-weight: 500;
+}
+
+.link-contakt {
+    color: var(--color-primary);
+    text-decoration: none;
+    line-height: 1.17;
+    font-weight: 500;
+}
+
+.link-contakt:hover {
+    color: var(--color-brand);
+}
+
+.link-contakt:focus {
+    color: var(--color-active);
+}
+
+.link-contakt:active {
+    color: var(--color-active);
+}
+
+.link-footer {
+    text-decoration: none;
+    line-height: 1.17;
+    font-family: Raleway;
+}
+
+
+.link-address {
+    color: var(--color-background);
+    text-decoration: none;
+    line-height: 1.14;
+    font-style: normal;
+}
+
+.link-address:hover {
+    color: var(--color-brand);
+}
+
+.link-address:focus {
+    color: var(--color-active);
+}
+
+..link-address:active {
+    color: var(--color-active);
+}
+
+/* base section*/
+
+.primary-section {
+    background: var(--color-section);
+}
+
+.section-footer {
+    background: var(--color-section);
+}
+
+.section-third {
+    background-color: #F5F4FA;
+}
+
+.team-card {
+    background-color: var(--color-background);
+}
+
+/*section-text*/
+
+.hero-title {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.36;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+}
+
+.section-sabtitle {
+    color: var(--color-accent);
+    text-transform: uppercase;
+    line-height: 1.14;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.text-rede {
+    line-height: 1.7;
+    font-weight: 400;
+   letter-spacing: 0.03em;
+}
+
+.title-text {
+    color: var(--color-accent);
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+.section-caption {
+    color: var(--color-accent);
+    line-height: 1.17;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.section-subject {
+    color: var(--color-accent);
+    line-height: 1.17;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+.text-desc {
+    line-height: 1.17;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+.title-description {
+    line-height: 1.88;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+/* section-button*/
+
+.primery-button {
+   color: var(--color-background);
+   background-color: var(--color-brand);
+   font-weight: 700;
+   letter-spacing: 0.06em;
+   font-size: 16px;
+   border: 0;
+   font-family: inherit;
+}
+
+.primery-button:hover {
+    color: #fff;
+    background-color: var(--color-brand);
+    cursor: pointer;
+}
+
+.primery-button:active {
+    color: #fff;
+    background-color: var(--color-active);
+} 
+
+.secondary-button {
+    color: var(--color-accent);
+    background-color: var(--color-secondary-section);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+}
+
+.secondary-button:hover {
+    color: var(--color-background);
+    background-color: var(--color-brand);
+    cursor: pointer;
+}
+.secondary-button:active {
+    color: var(--color-background);
+    background-color: var(--color-active);
+}
+
+.secondary-button-first {
+    color: var(--color-background);
+    background-color: var(--color-brand);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.secondary-button-first:hover {
+    color: var(--color-background);
+    background-color: var(--color-brand);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.secondary-button-first:active {
+    color: var(--color-background);
+    background-color: var(--color-active);
+    font-weight: 500;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+ /* list*/ 
+
+.general-list {
+    list-style: none;
+}
+
+
+
+
+
+
