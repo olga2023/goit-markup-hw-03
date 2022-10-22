@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,22 +15,24 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+    <div class="container"> 
+    <div class="header-conteiner">
+        <nav class="header-nav">
         <a class="link-logo" href="/"> <span class="logo-text">Web</span><span class="logo-second">Studio</span></a>
-        <nav>
-            <ul class="general-list">
-                <li>
-                    <a class="link-nav" href="./index.html">Студія</a>
-                </li>
-                <li>
-                    <a class="link-nav" href="#">Портфоліо</a>
-                </li>
-                <li>
-                    <a class="link-nav" href="#">Контакти</a>
-                </li>
-            </ul>
+        <ul class="general-menu">
+            <li>
+                <a class="link-nav" href="./index.html">Студія</a>
+            </li>
+            <li>
+                <a class="link-nav" href="#">Портфоліо</a>
+            </li>
+            <li>
+                <a class="link-nav" href="#">Контакти</a>
+            </li>
+        </ul>
         </nav>
-        <ul class="general-list">
+        <ul class="general-kontakt">
             <li>
                 <a class="link-contakt" href="info@devstudio.com">info@devstudio.com</a>
             </li>
@@ -37,11 +40,13 @@
                 <a class="link-contakt" href="+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+    </div>
+    </div>
     </header>
     <main>
-        <section class="porfolio-general">
-        <div>
-        <ul class="general-list">
+        <section class="section">
+        <div class="container">
+        <ul class="secondary-menu">
             <li>
             <button  class="secondary-button-first" type="button">Усі</button>
             </li>
@@ -59,7 +64,7 @@
             </li>
         </ul>
         <h1 class="visually-hidden">Наші роботи</h1>
-        <ul class="general-list">
+        <ul class="portfolio-card">
             <li class="container-portfolio"><img src="./images/portfolio1.jpg.png" alt="tehnohryak" width="370" />
                 <h3 class="title-text">Технокряк</h3>
                 <p class="title-description">Веб-сайт</p>
@@ -97,19 +102,22 @@
                 <p class="title-description">Додаток</p>
             </li>
         </ul>
-        </div>
         </section>
     </main>
-        <footer class="section-footer">
-            <a class="link-footer" href="/"><span class="logo-text">Web</span><span class="logo-second-footer">Studio</span></a>
-            <address>
-                <ul class="general-list">
-                    <li><a class="link-address" href="/">м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li><a class="link-address" href="info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="link-address" href="+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-        </address>
-    </footer>
+<footer class="section-footer">
+    <div class="container">
+    <div class="footer-container">
+        <a class="link-footer" href="/"><span class="logo-text">Web</span><span class="logo-second-footer">Studio</span></a>
+    </div>
+    <address>
+    <ul class="footer-list">
+        <li class="location-address"><a class="link-address" href="/">м. Київ, пр-т Лесі Українки, 26</a></li>
+        <li class="link-email"><a class="link-information" href="info@devstudio.com">info@devstudio.com</a></li>
+        <li class="footer-tel"><a class="link-information" href="+380961111111">+38 096 111 11 11</a></li>
+    </ul>
+    </address>
+    </div>
+</footer>
 </body>
 
 </html>

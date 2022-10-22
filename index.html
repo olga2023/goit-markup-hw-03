@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,22 +13,26 @@
         rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a class="link-logo" href="/"><span class="logo-text">Web</span><span class="logo-second">Studio</span></a>
-        <nav>
-            <ul class="general-list">
-                <li class="link-nav">
-                    <a class="link-nav" href="#">Студія</a>
-                </li>
-                <li>
-                    <a class="link-nav" href="./portfolio.html">Портфоліо</a>
-                </li>
-                <li>
-                    <a class="link-nav" href="#">Контакти</a>
-                </li>
-            </ul>
+    <header class="header">
+    <div class="container">
+        <div class="header-conteiner">
+        <nav class="header-nav">
+         <a class="link-logo" href="/">
+            <span class="logo-text">Web</span><span class="logo-second">Studio</span>
+        </a>
+        <ul class="general-menu">
+            <li class="link-nav">
+                <a class="link-nav" href="#">Студія</a>
+            </li>
+            <li>
+                <a class="link-nav" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li>
+                <a class="link-nav" href="#">Контакти</a>
+            </li>
+        </ul>
         </nav>
-        <ul class="general-list">
+        <ul class="general-kontakt">
         <li>
             <a class="link-contakt" href="info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -35,35 +40,46 @@
             <a class="link-contakt" href="+380961111111">+38 096 111 11 11</a>
         </li>
         </ul>
+    </div>
+    </div>
     </header>
     <main>
+        <section class="section">
 <section class="primary-section">
+<div class="container"> 
     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+    <div class="hero-container">
     <button class="primery-button" type="button">Замовити послугу</button>
+</div>
+</div>
 </section>
-<section class="secondary-group">
-    <ul class="general-list"> 
-        <li>
+</section>
+<section class="section">
+    <div class="container">
+    <ul class="list-text"> 
+        <li class="list-content">
             <h3 class="section-sabtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="text-rede">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </li>
-        <li>
+        <li class="list-content">
             <h3 class="section-sabtitle">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="text-rede">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
         </li>
-        <li>
+        <li class="list-content">
             <h3 class="section-sabtitle">ПЛАНУВАННЯ</h3>
             <p class="text-rede">Так само консультація з широким активом значною мірою зумовлює.</p>
         </li>
-        <li>
+        <li class="list-content">
             <h3 class="section-sabtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="text-rede">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
     </ul>
+    </div>
 </section>
-<section>
+<section class="section">
+    <div class="container">
     <h2 class="section-caption">Чим ми займаємося</h2>
-    <ul class="general-list">
+    <ul class="pfoto-list">
         <li>
             <img src="./images/box1.jpg" alt="man typing on keyboard" width="370"/>
         </li>
@@ -74,10 +90,12 @@
             <img src="./images/box3.jpg" alt="color chart on tablet" width="370"/>
         </li>
     </ul>
+    </div>
 </section>
 <section class="section-third">
+    <div class="container">
     <h2 class="section-caption">Наша команда</h2>
-    <ul class="general-list">
+    <ul class="command-list">
         <li class="team-card"><img src="./images/img4).jpg" alt="Product Designer" width="270"/>
         <h3 class="section-subject">Ігор Дем'яненко</h3>
         <p class="text-desc">Product Designer</p>
@@ -95,17 +113,22 @@
         <p class="text-desc">UI Designer</p>
         </li>
     </ul>
-</section>
+    </div>
+    </section>
     </main>
-    <footer class="section-footer">
+<footer class="section-footer">
+    <div class="container">
+    <div class="footer-container">
 <a class="link-footer"href="/"><span class="logo-text">Web</span><span class="logo-second-footer">Studio</span></a>
+</div>
 <address>
-    <ul class="general-list">
-        <li><a class="link-address"href="/">м. Київ, пр-т Лесі Українки, 26</a></li>
-        <li><a class="link-address"href="info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link-address"href="+380961111111">+38 096 111 11 11</a></li>
+    <ul>
+        <li class="location-address"><a class="link-address"href="/">м. Київ, пр-т Лесі Українки, 26</a></li>
+        <li class="link-email"><a class="link-information"href="info@devstudio.com">info@devstudio.com</a></li>
+        <li class="footer-tel"><a class="link-information"href="+380961111111">+38 096 111 11 11</a></li>
     </ul>
 </address>
+</div>
     </footer>
 </body>
 </html>
