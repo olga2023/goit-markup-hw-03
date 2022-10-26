@@ -386,40 +386,15 @@ border-top: none;
 
 .secondary-button:hover {
     color: var(--color-background);
-    background-color: var(--color-brand);
-    cursor: pointer;
+    background-color: var(--color-brand); 
 }
 .secondary-button:active {
     color: var(--color-background);
     background-color: var(--color-active);
 }
 
-.secondary-button-first {
-    color: var(--color-background);
-    background-color: var(--color-brand);
-    padding: 6px 25px;
-    font-size: 16px;
-    line-height: 1.62;
-    border: 0;
-    letter-spacing: 0.03em;
-    font-weight: 500;
-    font-family: inherit;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.secondary-button-first:hover {
-    color: var(--color-background);
-    background-color: var(--color-brand);
-    font-weight: 500;
-}
-
-.secondary-button-first:active {
-    color: var(--color-background);
-    background-color: var(--color-active);
-    font-weight: 500;
-}
+ 
+ 
 
 
  /* footer */
